@@ -8,7 +8,7 @@ function Bar() {
 Foo.prototype.b = 2;
 Bar.prototype.d = 4;
 
-function assign(object,...source){
+function assign(...source){
 return Object.assign(...source);
 }
 
